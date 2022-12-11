@@ -1,0 +1,29 @@
+{
+  "name": "solidity-token-examples",
+  "version": "1.0.0",
+  "description": "•\tCreate an ERC721 token smart contract and ERC20 token smart contract. \t•\tThe features required of the ERC721 contract: \t⁃\tThe token name will be “YOURNAME” \t⁃\tHave a mint function with auto increment ID. \t⁃\tHave a token burn function. \t⁃\tDeploy the smart contract on the Ethereum Testnet (Ropsten/Rinkeby) \t⁃\tVerify the source code in Etherscan \t⁃\tExecute the following functions - mint, burn and pause function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzureKn1ght/Solidity-Token-Examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzureKn1ght/Solidity-Token-Examples/issues"
+  },
+  "homepage": "https://github.com/AzureKn1ght/Solidity-Token-Examples#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}
